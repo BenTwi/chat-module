@@ -1,6 +1,6 @@
 function appendTwitchMessage(USER, message, BADGES) {
   const twitchChat = document.querySelector(
-    "{REPLACE THIS WITH THE ACTUALL CLASS NAME OF YOU CHAT!}"
+    ".{REPLACE THIS WITH THE ACTUALL CLASS NAME OF YOUR CHAT!}"
   );
 
   if (!twitchChat || !USER || !message) {
